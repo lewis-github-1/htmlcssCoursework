@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ch 10 Forms Practice</title>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+</nav>
+<div id="wrapper">
+<main>
+<h2>Contact Page</h2>
+<p>Required fields are marked with an asterisk * </p>
+<form method="post" action="">
+  <label for="myname">* Name: </label>
+  <input type="text" id="myname" name="myname" required="required">
+
+  <label for="myEmail">* E-mail: </label>
+  <input type="email" id="myEmail" name="myEmail" required="required">
+
+  <label for="myReferral"> How did you hear about us? </label>
+  <input type="text" name="myReferral" id="myReferral" list="referral">
+  <datalist id="referral">
+    <option>Google</option>
+    <option>Bing</option>
+    <option>Facebook</option>
+    <option>Friend</option>
+    <option>Radio Ad</option>
+  </datalist>
+
+  <label for="myComments">* Comments: </label>
+  <textarea id="myComments" name="myComments" rows="5" cols="20" required="required"> </textarea>
+
+  <input type="submit" value="Send Now" id="mySubmit">
+</form>
+
+</main>
+<footer>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+* { 
+	box-sizing: border-box; 
+}
+body { 
+	background-color: #40407A;
+	color: #40407A;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0;
+}
+#wrapper { 
+  background-color: #F5F5F5;
+	padding: 2em; 
+}	
+p {
+	font-style: bold;
+	color: red;
+}	
+form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+input, datalist, textarea {
+  margin-bottom: .5em;
+  border-radius: 4px;
+}
+label {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+#mySubmit {
+  width : 100px;
+  margin: auto;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+
+
+

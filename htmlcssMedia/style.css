@@ -1,0 +1,18 @@
+body {font-family: Arial, Verdana, sans-serif;}
+h1 {color: darkblue;}
+#content {width: 600px;
+	margin: auto;
+	background-color: lightblue;
+	text-align: center;}
+figure {float: center;
+	margin: 10px;
+	padding: 5px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: 5px 5px 5px #828282;
+  transform: rotate(-5deg);
+}
+figcaption { text-align: center;
+   font-size: .8em;
+   font-style: italic;
+}
